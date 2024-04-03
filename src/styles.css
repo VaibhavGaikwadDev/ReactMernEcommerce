@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* This CSS code goes into your project's global stylesheet */
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #cbd5e0;
+  }
+  
+  .table th {
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .table td {
+    text-align: center;
+  }
+  
+  /* Hover Effect */
+  .table tr:hover {
+    background-color: #f7fafc;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border: 1px solid #cbd5e0;
+    background-color: #edf2f7;
+    color: #4a5568;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4299e1;
+    color: #ffffff;
+  }
+  
+  /* Icons */
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: #805ad5;
+  }
+  
